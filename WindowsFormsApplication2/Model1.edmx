@@ -1,0 +1,523 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="DRAQ127Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Monthly_Output_Model">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Ts" Type="datetime" />
+          <Property Name="Years" Type="int" />
+          <Property Name="Months" Type="int" />
+          <Property Name="Days" Type="int" />
+          <Property Name="Q127_100" Type="int" />
+          <Property Name="Q127_150" Type="int" />
+          <Property Name="Q127_220" Type="int" />
+          <Property Name="Q127_330" Type="int" />
+          <Property Name="Q127_470" Type="int" />
+          <Property Name="A127_R47" Type="int" />
+          <Property Name="A127_1R0" Type="int" />
+          <Property Name="A127_1R5" Type="int" />
+          <Property Name="A127_2R2" Type="int" />
+          <Property Name="A127_3R3" Type="int" />
+          <Property Name="A127_4R7" Type="int" />
+          <Property Name="A127_6R8" Type="int" />
+          <Property Name="A127_8R2" Type="int" />
+          <Property Name="A127_100" Type="int" />
+          <Property Name="A127_150" Type="int" />
+          <Property Name="A127_220" Type="int" />
+          <Property Name="A127_330" Type="int" />
+          <Property Name="A127_470" Type="int" />
+          <Property Name="A127_680" Type="int" />
+          <Property Name="A127_820" Type="int" />
+          <Property Name="A127_101" Type="int" />
+          <Property Name="A127_151" Type="int" />
+          <Property Name="A127_221" Type="int" />
+          <Property Name="A127_331" Type="int" />
+          <Property Name="A127_471" Type="int" />
+          <Property Name="A127_681" Type="int" />
+          <Property Name="A127_821" Type="int" />
+          <Property Name="A127_102" Type="int" />
+          <Property Name="A125_R47" Type="int" />
+          <Property Name="A125_1R0" Type="int" />
+          <Property Name="A125_1R5" Type="int" />
+          <Property Name="A125_2R2" Type="int" />
+          <Property Name="A125_3R3" Type="int" />
+          <Property Name="A125_4R7" Type="int" />
+          <Property Name="A125_6R8" Type="int" />
+          <Property Name="A125_8R2" Type="int" />
+          <Property Name="A125_100" Type="int" />
+          <Property Name="A125_150" Type="int" />
+          <Property Name="A125_220" Type="int" />
+          <Property Name="A125_330" Type="int" />
+          <Property Name="A125_470" Type="int" />
+          <Property Name="A125_680" Type="int" />
+          <Property Name="A125_820" Type="int" />
+          <Property Name="A125_101" Type="int" />
+          <Property Name="A125_151" Type="int" />
+          <Property Name="A125_221" Type="int" />
+          <Property Name="A125_331" Type="int" />
+          <Property Name="A125_471" Type="int" />
+          <Property Name="A125_681" Type="int" />
+          <Property Name="A125_821" Type="int" />
+          <Property Name="A125_102" Type="int" />
+          <Property Name="A124_R47" Type="int" />
+          <Property Name="A124_1R0" Type="int" />
+          <Property Name="A124_1R5" Type="int" />
+          <Property Name="A124_2R2" Type="int" />
+          <Property Name="A124_3R3" Type="int" />
+          <Property Name="A124_4R7" Type="int" />
+          <Property Name="A124_6R8" Type="int" />
+          <Property Name="A124_8R2" Type="int" />
+          <Property Name="A124_100" Type="int" />
+          <Property Name="A124_150" Type="int" />
+          <Property Name="A124_220" Type="int" />
+          <Property Name="A124_330" Type="int" />
+          <Property Name="A124_470" Type="int" />
+          <Property Name="A124_680" Type="int" />
+          <Property Name="A124_820" Type="int" />
+          <Property Name="A124_101" Type="int" />
+          <Property Name="A124_151" Type="int" />
+          <Property Name="A124_221" Type="int" />
+          <Property Name="A124_331" Type="int" />
+          <Property Name="A124_471" Type="int" />
+          <Property Name="A124_681" Type="int" />
+          <Property Name="A124_821" Type="int" />
+          <Property Name="A124_102" Type="int" />
+          <Property Name="Q127_100_NG" Type="int" />
+          <Property Name="Q127_150_NG" Type="int" />
+          <Property Name="Q127_220_NG" Type="int" />
+          <Property Name="Q127_330_NG" Type="int" />
+          <Property Name="Q127_470_NG" Type="int" />
+          <Property Name="A127_R47_NG" Type="int" />
+          <Property Name="A127_1R0_NG" Type="int" />
+          <Property Name="A127_1R5_NG" Type="int" />
+          <Property Name="A127_2R2_NG" Type="int" />
+          <Property Name="A127_3R3_NG" Type="int" />
+          <Property Name="A127_4R7_NG" Type="int" />
+          <Property Name="A127_6R8_NG" Type="int" />
+          <Property Name="A127_8R2_NG" Type="int" />
+          <Property Name="A127_100_NG" Type="int" />
+          <Property Name="A127_150_NG" Type="int" />
+          <Property Name="A127_220_NG" Type="int" />
+          <Property Name="A127_330_NG" Type="int" />
+          <Property Name="A127_470_NG" Type="int" />
+          <Property Name="A127_680_NG" Type="int" />
+          <Property Name="A127_820_NG" Type="int" />
+          <Property Name="A127_101_NG" Type="int" />
+          <Property Name="A127_151_NG" Type="int" />
+          <Property Name="A127_221_NG" Type="int" />
+          <Property Name="A127_331_NG" Type="int" />
+          <Property Name="A127_471_NG" Type="int" />
+          <Property Name="A127_681_NG" Type="int" />
+          <Property Name="A127_821_NG" Type="int" />
+          <Property Name="A127_102_NG" Type="int" />
+          <Property Name="A125_R47_NG" Type="int" />
+          <Property Name="A125_1R0_NG" Type="int" />
+          <Property Name="A125_1R5_NG" Type="int" />
+          <Property Name="A125_2R2_NG" Type="int" />
+          <Property Name="A125_3R3_NG" Type="int" />
+          <Property Name="A125_4R7_NG" Type="int" />
+          <Property Name="A125_6R8_NG" Type="int" />
+          <Property Name="A125_8R2_NG" Type="int" />
+          <Property Name="A125_100_NG" Type="int" />
+          <Property Name="A125_150_NG" Type="int" />
+          <Property Name="A125_220_NG" Type="int" />
+          <Property Name="A125_330_NG" Type="int" />
+          <Property Name="A125_470_NG" Type="int" />
+          <Property Name="A125_680_NG" Type="int" />
+          <Property Name="A125_820_NG" Type="int" />
+          <Property Name="A125_101_NG" Type="int" />
+          <Property Name="A125_151_NG" Type="int" />
+          <Property Name="A125_221_NG" Type="int" />
+          <Property Name="A125_331_NG" Type="int" />
+          <Property Name="A125_471_NG" Type="int" />
+          <Property Name="A125_681_NG" Type="int" />
+          <Property Name="A125_821_NG" Type="int" />
+          <Property Name="A125_102_NG" Type="int" />
+          <Property Name="A124_R47_NG" Type="int" />
+          <Property Name="A124_1R0_NG" Type="int" />
+          <Property Name="A124_1R5_NG" Type="int" />
+          <Property Name="A124_2R2_NG" Type="int" />
+          <Property Name="A124_3R3_NG" Type="int" />
+          <Property Name="A124_4R7_NG" Type="int" />
+          <Property Name="A124_6R8_NG" Type="int" />
+          <Property Name="A124_8R2_NG" Type="int" />
+          <Property Name="A124_100_NG" Type="int" />
+          <Property Name="A124_150_NG" Type="int" />
+          <Property Name="A124_220_NG" Type="int" />
+          <Property Name="A124_330_NG" Type="int" />
+          <Property Name="A124_470_NG" Type="int" />
+          <Property Name="A124_680_NG" Type="int" />
+          <Property Name="A124_820_NG" Type="int" />
+          <Property Name="A124_101_NG" Type="int" />
+          <Property Name="A124_151_NG" Type="int" />
+          <Property Name="A124_221_NG" Type="int" />
+          <Property Name="A124_331_NG" Type="int" />
+          <Property Name="A124_471_NG" Type="int" />
+          <Property Name="A124_681_NG" Type="int" />
+          <Property Name="A124_821_NG" Type="int" />
+          <Property Name="A124_102_NG" Type="int" />
+        </EntityType>
+        <EntityContainer Name="DRAQ127ModelStoreContainer">
+          <EntitySet Name="Monthly_Output_Model" EntityType="Self.Monthly_Output_Model" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="DRAQ127Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Monthly_Output_Model">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Ts" Type="DateTime" Precision="3" />
+          <Property Name="Years" Type="Int32" />
+          <Property Name="Months" Type="Int32" />
+          <Property Name="Days" Type="Int32" />
+          <Property Name="Q127_100" Type="Int32" />
+          <Property Name="Q127_150" Type="Int32" />
+          <Property Name="Q127_220" Type="Int32" />
+          <Property Name="Q127_330" Type="Int32" />
+          <Property Name="Q127_470" Type="Int32" />
+          <Property Name="A127_R47" Type="Int32" />
+          <Property Name="A127_1R0" Type="Int32" />
+          <Property Name="A127_1R5" Type="Int32" />
+          <Property Name="A127_2R2" Type="Int32" />
+          <Property Name="A127_3R3" Type="Int32" />
+          <Property Name="A127_4R7" Type="Int32" />
+          <Property Name="A127_6R8" Type="Int32" />
+          <Property Name="A127_8R2" Type="Int32" />
+          <Property Name="A127_100" Type="Int32" />
+          <Property Name="A127_150" Type="Int32" />
+          <Property Name="A127_220" Type="Int32" />
+          <Property Name="A127_330" Type="Int32" />
+          <Property Name="A127_470" Type="Int32" />
+          <Property Name="A127_680" Type="Int32" />
+          <Property Name="A127_820" Type="Int32" />
+          <Property Name="A127_101" Type="Int32" />
+          <Property Name="A127_151" Type="Int32" />
+          <Property Name="A127_221" Type="Int32" />
+          <Property Name="A127_331" Type="Int32" />
+          <Property Name="A127_471" Type="Int32" />
+          <Property Name="A127_681" Type="Int32" />
+          <Property Name="A127_821" Type="Int32" />
+          <Property Name="A127_102" Type="Int32" />
+          <Property Name="A125_R47" Type="Int32" />
+          <Property Name="A125_1R0" Type="Int32" />
+          <Property Name="A125_1R5" Type="Int32" />
+          <Property Name="A125_2R2" Type="Int32" />
+          <Property Name="A125_3R3" Type="Int32" />
+          <Property Name="A125_4R7" Type="Int32" />
+          <Property Name="A125_6R8" Type="Int32" />
+          <Property Name="A125_8R2" Type="Int32" />
+          <Property Name="A125_100" Type="Int32" />
+          <Property Name="A125_150" Type="Int32" />
+          <Property Name="A125_220" Type="Int32" />
+          <Property Name="A125_330" Type="Int32" />
+          <Property Name="A125_470" Type="Int32" />
+          <Property Name="A125_680" Type="Int32" />
+          <Property Name="A125_820" Type="Int32" />
+          <Property Name="A125_101" Type="Int32" />
+          <Property Name="A125_151" Type="Int32" />
+          <Property Name="A125_221" Type="Int32" />
+          <Property Name="A125_331" Type="Int32" />
+          <Property Name="A125_471" Type="Int32" />
+          <Property Name="A125_681" Type="Int32" />
+          <Property Name="A125_821" Type="Int32" />
+          <Property Name="A125_102" Type="Int32" />
+          <Property Name="A124_R47" Type="Int32" />
+          <Property Name="A124_1R0" Type="Int32" />
+          <Property Name="A124_1R5" Type="Int32" />
+          <Property Name="A124_2R2" Type="Int32" />
+          <Property Name="A124_3R3" Type="Int32" />
+          <Property Name="A124_4R7" Type="Int32" />
+          <Property Name="A124_6R8" Type="Int32" />
+          <Property Name="A124_8R2" Type="Int32" />
+          <Property Name="A124_100" Type="Int32" />
+          <Property Name="A124_150" Type="Int32" />
+          <Property Name="A124_220" Type="Int32" />
+          <Property Name="A124_330" Type="Int32" />
+          <Property Name="A124_470" Type="Int32" />
+          <Property Name="A124_680" Type="Int32" />
+          <Property Name="A124_820" Type="Int32" />
+          <Property Name="A124_101" Type="Int32" />
+          <Property Name="A124_151" Type="Int32" />
+          <Property Name="A124_221" Type="Int32" />
+          <Property Name="A124_331" Type="Int32" />
+          <Property Name="A124_471" Type="Int32" />
+          <Property Name="A124_681" Type="Int32" />
+          <Property Name="A124_821" Type="Int32" />
+          <Property Name="A124_102" Type="Int32" />
+          <Property Name="Q127_100_NG" Type="Int32" />
+          <Property Name="Q127_150_NG" Type="Int32" />
+          <Property Name="Q127_220_NG" Type="Int32" />
+          <Property Name="Q127_330_NG" Type="Int32" />
+          <Property Name="Q127_470_NG" Type="Int32" />
+          <Property Name="A127_R47_NG" Type="Int32" />
+          <Property Name="A127_1R0_NG" Type="Int32" />
+          <Property Name="A127_1R5_NG" Type="Int32" />
+          <Property Name="A127_2R2_NG" Type="Int32" />
+          <Property Name="A127_3R3_NG" Type="Int32" />
+          <Property Name="A127_4R7_NG" Type="Int32" />
+          <Property Name="A127_6R8_NG" Type="Int32" />
+          <Property Name="A127_8R2_NG" Type="Int32" />
+          <Property Name="A127_100_NG" Type="Int32" />
+          <Property Name="A127_150_NG" Type="Int32" />
+          <Property Name="A127_220_NG" Type="Int32" />
+          <Property Name="A127_330_NG" Type="Int32" />
+          <Property Name="A127_470_NG" Type="Int32" />
+          <Property Name="A127_680_NG" Type="Int32" />
+          <Property Name="A127_820_NG" Type="Int32" />
+          <Property Name="A127_101_NG" Type="Int32" />
+          <Property Name="A127_151_NG" Type="Int32" />
+          <Property Name="A127_221_NG" Type="Int32" />
+          <Property Name="A127_331_NG" Type="Int32" />
+          <Property Name="A127_471_NG" Type="Int32" />
+          <Property Name="A127_681_NG" Type="Int32" />
+          <Property Name="A127_821_NG" Type="Int32" />
+          <Property Name="A127_102_NG" Type="Int32" />
+          <Property Name="A125_R47_NG" Type="Int32" />
+          <Property Name="A125_1R0_NG" Type="Int32" />
+          <Property Name="A125_1R5_NG" Type="Int32" />
+          <Property Name="A125_2R2_NG" Type="Int32" />
+          <Property Name="A125_3R3_NG" Type="Int32" />
+          <Property Name="A125_4R7_NG" Type="Int32" />
+          <Property Name="A125_6R8_NG" Type="Int32" />
+          <Property Name="A125_8R2_NG" Type="Int32" />
+          <Property Name="A125_100_NG" Type="Int32" />
+          <Property Name="A125_150_NG" Type="Int32" />
+          <Property Name="A125_220_NG" Type="Int32" />
+          <Property Name="A125_330_NG" Type="Int32" />
+          <Property Name="A125_470_NG" Type="Int32" />
+          <Property Name="A125_680_NG" Type="Int32" />
+          <Property Name="A125_820_NG" Type="Int32" />
+          <Property Name="A125_101_NG" Type="Int32" />
+          <Property Name="A125_151_NG" Type="Int32" />
+          <Property Name="A125_221_NG" Type="Int32" />
+          <Property Name="A125_331_NG" Type="Int32" />
+          <Property Name="A125_471_NG" Type="Int32" />
+          <Property Name="A125_681_NG" Type="Int32" />
+          <Property Name="A125_821_NG" Type="Int32" />
+          <Property Name="A125_102_NG" Type="Int32" />
+          <Property Name="A124_R47_NG" Type="Int32" />
+          <Property Name="A124_1R0_NG" Type="Int32" />
+          <Property Name="A124_1R5_NG" Type="Int32" />
+          <Property Name="A124_2R2_NG" Type="Int32" />
+          <Property Name="A124_3R3_NG" Type="Int32" />
+          <Property Name="A124_4R7_NG" Type="Int32" />
+          <Property Name="A124_6R8_NG" Type="Int32" />
+          <Property Name="A124_8R2_NG" Type="Int32" />
+          <Property Name="A124_100_NG" Type="Int32" />
+          <Property Name="A124_150_NG" Type="Int32" />
+          <Property Name="A124_220_NG" Type="Int32" />
+          <Property Name="A124_330_NG" Type="Int32" />
+          <Property Name="A124_470_NG" Type="Int32" />
+          <Property Name="A124_680_NG" Type="Int32" />
+          <Property Name="A124_820_NG" Type="Int32" />
+          <Property Name="A124_101_NG" Type="Int32" />
+          <Property Name="A124_151_NG" Type="Int32" />
+          <Property Name="A124_221_NG" Type="Int32" />
+          <Property Name="A124_331_NG" Type="Int32" />
+          <Property Name="A124_471_NG" Type="Int32" />
+          <Property Name="A124_681_NG" Type="Int32" />
+          <Property Name="A124_821_NG" Type="Int32" />
+          <Property Name="A124_102_NG" Type="Int32" />
+        </EntityType>
+        <EntityContainer Name="DRAQ127Entities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Monthly_Output_Model" EntityType="Self.Monthly_Output_Model" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="DRAQ127ModelStoreContainer" CdmEntityContainer="DRAQ127Entities">
+          <EntitySetMapping Name="Monthly_Output_Model">
+            <EntityTypeMapping TypeName="DRAQ127Model.Monthly_Output_Model">
+              <MappingFragment StoreEntitySet="Monthly_Output_Model">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Ts" ColumnName="Ts" />
+                <ScalarProperty Name="Years" ColumnName="Years" />
+                <ScalarProperty Name="Months" ColumnName="Months" />
+                <ScalarProperty Name="Days" ColumnName="Days" />
+                <ScalarProperty Name="Q127_100" ColumnName="Q127_100" />
+                <ScalarProperty Name="Q127_150" ColumnName="Q127_150" />
+                <ScalarProperty Name="Q127_220" ColumnName="Q127_220" />
+                <ScalarProperty Name="Q127_330" ColumnName="Q127_330" />
+                <ScalarProperty Name="Q127_470" ColumnName="Q127_470" />
+                <ScalarProperty Name="A127_R47" ColumnName="A127_R47" />
+                <ScalarProperty Name="A127_1R0" ColumnName="A127_1R0" />
+                <ScalarProperty Name="A127_1R5" ColumnName="A127_1R5" />
+                <ScalarProperty Name="A127_2R2" ColumnName="A127_2R2" />
+                <ScalarProperty Name="A127_3R3" ColumnName="A127_3R3" />
+                <ScalarProperty Name="A127_4R7" ColumnName="A127_4R7" />
+                <ScalarProperty Name="A127_6R8" ColumnName="A127_6R8" />
+                <ScalarProperty Name="A127_8R2" ColumnName="A127_8R2" />
+                <ScalarProperty Name="A127_100" ColumnName="A127_100" />
+                <ScalarProperty Name="A127_150" ColumnName="A127_150" />
+                <ScalarProperty Name="A127_220" ColumnName="A127_220" />
+                <ScalarProperty Name="A127_330" ColumnName="A127_330" />
+                <ScalarProperty Name="A127_470" ColumnName="A127_470" />
+                <ScalarProperty Name="A127_680" ColumnName="A127_680" />
+                <ScalarProperty Name="A127_820" ColumnName="A127_820" />
+                <ScalarProperty Name="A127_101" ColumnName="A127_101" />
+                <ScalarProperty Name="A127_151" ColumnName="A127_151" />
+                <ScalarProperty Name="A127_221" ColumnName="A127_221" />
+                <ScalarProperty Name="A127_331" ColumnName="A127_331" />
+                <ScalarProperty Name="A127_471" ColumnName="A127_471" />
+                <ScalarProperty Name="A127_681" ColumnName="A127_681" />
+                <ScalarProperty Name="A127_821" ColumnName="A127_821" />
+                <ScalarProperty Name="A127_102" ColumnName="A127_102" />
+                <ScalarProperty Name="A125_R47" ColumnName="A125_R47" />
+                <ScalarProperty Name="A125_1R0" ColumnName="A125_1R0" />
+                <ScalarProperty Name="A125_1R5" ColumnName="A125_1R5" />
+                <ScalarProperty Name="A125_2R2" ColumnName="A125_2R2" />
+                <ScalarProperty Name="A125_3R3" ColumnName="A125_3R3" />
+                <ScalarProperty Name="A125_4R7" ColumnName="A125_4R7" />
+                <ScalarProperty Name="A125_6R8" ColumnName="A125_6R8" />
+                <ScalarProperty Name="A125_8R2" ColumnName="A125_8R2" />
+                <ScalarProperty Name="A125_100" ColumnName="A125_100" />
+                <ScalarProperty Name="A125_150" ColumnName="A125_150" />
+                <ScalarProperty Name="A125_220" ColumnName="A125_220" />
+                <ScalarProperty Name="A125_330" ColumnName="A125_330" />
+                <ScalarProperty Name="A125_470" ColumnName="A125_470" />
+                <ScalarProperty Name="A125_680" ColumnName="A125_680" />
+                <ScalarProperty Name="A125_820" ColumnName="A125_820" />
+                <ScalarProperty Name="A125_101" ColumnName="A125_101" />
+                <ScalarProperty Name="A125_151" ColumnName="A125_151" />
+                <ScalarProperty Name="A125_221" ColumnName="A125_221" />
+                <ScalarProperty Name="A125_331" ColumnName="A125_331" />
+                <ScalarProperty Name="A125_471" ColumnName="A125_471" />
+                <ScalarProperty Name="A125_681" ColumnName="A125_681" />
+                <ScalarProperty Name="A125_821" ColumnName="A125_821" />
+                <ScalarProperty Name="A125_102" ColumnName="A125_102" />
+                <ScalarProperty Name="A124_R47" ColumnName="A124_R47" />
+                <ScalarProperty Name="A124_1R0" ColumnName="A124_1R0" />
+                <ScalarProperty Name="A124_1R5" ColumnName="A124_1R5" />
+                <ScalarProperty Name="A124_2R2" ColumnName="A124_2R2" />
+                <ScalarProperty Name="A124_3R3" ColumnName="A124_3R3" />
+                <ScalarProperty Name="A124_4R7" ColumnName="A124_4R7" />
+                <ScalarProperty Name="A124_6R8" ColumnName="A124_6R8" />
+                <ScalarProperty Name="A124_8R2" ColumnName="A124_8R2" />
+                <ScalarProperty Name="A124_100" ColumnName="A124_100" />
+                <ScalarProperty Name="A124_150" ColumnName="A124_150" />
+                <ScalarProperty Name="A124_220" ColumnName="A124_220" />
+                <ScalarProperty Name="A124_330" ColumnName="A124_330" />
+                <ScalarProperty Name="A124_470" ColumnName="A124_470" />
+                <ScalarProperty Name="A124_680" ColumnName="A124_680" />
+                <ScalarProperty Name="A124_820" ColumnName="A124_820" />
+                <ScalarProperty Name="A124_101" ColumnName="A124_101" />
+                <ScalarProperty Name="A124_151" ColumnName="A124_151" />
+                <ScalarProperty Name="A124_221" ColumnName="A124_221" />
+                <ScalarProperty Name="A124_331" ColumnName="A124_331" />
+                <ScalarProperty Name="A124_471" ColumnName="A124_471" />
+                <ScalarProperty Name="A124_681" ColumnName="A124_681" />
+                <ScalarProperty Name="A124_821" ColumnName="A124_821" />
+                <ScalarProperty Name="A124_102" ColumnName="A124_102" />
+                <ScalarProperty Name="Q127_100_NG" ColumnName="Q127_100_NG" />
+                <ScalarProperty Name="Q127_150_NG" ColumnName="Q127_150_NG" />
+                <ScalarProperty Name="Q127_220_NG" ColumnName="Q127_220_NG" />
+                <ScalarProperty Name="Q127_330_NG" ColumnName="Q127_330_NG" />
+                <ScalarProperty Name="Q127_470_NG" ColumnName="Q127_470_NG" />
+                <ScalarProperty Name="A127_R47_NG" ColumnName="A127_R47_NG" />
+                <ScalarProperty Name="A127_1R0_NG" ColumnName="A127_1R0_NG" />
+                <ScalarProperty Name="A127_1R5_NG" ColumnName="A127_1R5_NG" />
+                <ScalarProperty Name="A127_2R2_NG" ColumnName="A127_2R2_NG" />
+                <ScalarProperty Name="A127_3R3_NG" ColumnName="A127_3R3_NG" />
+                <ScalarProperty Name="A127_4R7_NG" ColumnName="A127_4R7_NG" />
+                <ScalarProperty Name="A127_6R8_NG" ColumnName="A127_6R8_NG" />
+                <ScalarProperty Name="A127_8R2_NG" ColumnName="A127_8R2_NG" />
+                <ScalarProperty Name="A127_100_NG" ColumnName="A127_100_NG" />
+                <ScalarProperty Name="A127_150_NG" ColumnName="A127_150_NG" />
+                <ScalarProperty Name="A127_220_NG" ColumnName="A127_220_NG" />
+                <ScalarProperty Name="A127_330_NG" ColumnName="A127_330_NG" />
+                <ScalarProperty Name="A127_470_NG" ColumnName="A127_470_NG" />
+                <ScalarProperty Name="A127_680_NG" ColumnName="A127_680_NG" />
+                <ScalarProperty Name="A127_820_NG" ColumnName="A127_820_NG" />
+                <ScalarProperty Name="A127_101_NG" ColumnName="A127_101_NG" />
+                <ScalarProperty Name="A127_151_NG" ColumnName="A127_151_NG" />
+                <ScalarProperty Name="A127_221_NG" ColumnName="A127_221_NG" />
+                <ScalarProperty Name="A127_331_NG" ColumnName="A127_331_NG" />
+                <ScalarProperty Name="A127_471_NG" ColumnName="A127_471_NG" />
+                <ScalarProperty Name="A127_681_NG" ColumnName="A127_681_NG" />
+                <ScalarProperty Name="A127_821_NG" ColumnName="A127_821_NG" />
+                <ScalarProperty Name="A127_102_NG" ColumnName="A127_102_NG" />
+                <ScalarProperty Name="A125_R47_NG" ColumnName="A125_R47_NG" />
+                <ScalarProperty Name="A125_1R0_NG" ColumnName="A125_1R0_NG" />
+                <ScalarProperty Name="A125_1R5_NG" ColumnName="A125_1R5_NG" />
+                <ScalarProperty Name="A125_2R2_NG" ColumnName="A125_2R2_NG" />
+                <ScalarProperty Name="A125_3R3_NG" ColumnName="A125_3R3_NG" />
+                <ScalarProperty Name="A125_4R7_NG" ColumnName="A125_4R7_NG" />
+                <ScalarProperty Name="A125_6R8_NG" ColumnName="A125_6R8_NG" />
+                <ScalarProperty Name="A125_8R2_NG" ColumnName="A125_8R2_NG" />
+                <ScalarProperty Name="A125_100_NG" ColumnName="A125_100_NG" />
+                <ScalarProperty Name="A125_150_NG" ColumnName="A125_150_NG" />
+                <ScalarProperty Name="A125_220_NG" ColumnName="A125_220_NG" />
+                <ScalarProperty Name="A125_330_NG" ColumnName="A125_330_NG" />
+                <ScalarProperty Name="A125_470_NG" ColumnName="A125_470_NG" />
+                <ScalarProperty Name="A125_680_NG" ColumnName="A125_680_NG" />
+                <ScalarProperty Name="A125_820_NG" ColumnName="A125_820_NG" />
+                <ScalarProperty Name="A125_101_NG" ColumnName="A125_101_NG" />
+                <ScalarProperty Name="A125_151_NG" ColumnName="A125_151_NG" />
+                <ScalarProperty Name="A125_221_NG" ColumnName="A125_221_NG" />
+                <ScalarProperty Name="A125_331_NG" ColumnName="A125_331_NG" />
+                <ScalarProperty Name="A125_471_NG" ColumnName="A125_471_NG" />
+                <ScalarProperty Name="A125_681_NG" ColumnName="A125_681_NG" />
+                <ScalarProperty Name="A125_821_NG" ColumnName="A125_821_NG" />
+                <ScalarProperty Name="A125_102_NG" ColumnName="A125_102_NG" />
+                <ScalarProperty Name="A124_R47_NG" ColumnName="A124_R47_NG" />
+                <ScalarProperty Name="A124_1R0_NG" ColumnName="A124_1R0_NG" />
+                <ScalarProperty Name="A124_1R5_NG" ColumnName="A124_1R5_NG" />
+                <ScalarProperty Name="A124_2R2_NG" ColumnName="A124_2R2_NG" />
+                <ScalarProperty Name="A124_3R3_NG" ColumnName="A124_3R3_NG" />
+                <ScalarProperty Name="A124_4R7_NG" ColumnName="A124_4R7_NG" />
+                <ScalarProperty Name="A124_6R8_NG" ColumnName="A124_6R8_NG" />
+                <ScalarProperty Name="A124_8R2_NG" ColumnName="A124_8R2_NG" />
+                <ScalarProperty Name="A124_100_NG" ColumnName="A124_100_NG" />
+                <ScalarProperty Name="A124_150_NG" ColumnName="A124_150_NG" />
+                <ScalarProperty Name="A124_220_NG" ColumnName="A124_220_NG" />
+                <ScalarProperty Name="A124_330_NG" ColumnName="A124_330_NG" />
+                <ScalarProperty Name="A124_470_NG" ColumnName="A124_470_NG" />
+                <ScalarProperty Name="A124_680_NG" ColumnName="A124_680_NG" />
+                <ScalarProperty Name="A124_820_NG" ColumnName="A124_820_NG" />
+                <ScalarProperty Name="A124_101_NG" ColumnName="A124_101_NG" />
+                <ScalarProperty Name="A124_151_NG" ColumnName="A124_151_NG" />
+                <ScalarProperty Name="A124_221_NG" ColumnName="A124_221_NG" />
+                <ScalarProperty Name="A124_331_NG" ColumnName="A124_331_NG" />
+                <ScalarProperty Name="A124_471_NG" ColumnName="A124_471_NG" />
+                <ScalarProperty Name="A124_681_NG" ColumnName="A124_681_NG" />
+                <ScalarProperty Name="A124_821_NG" ColumnName="A124_821_NG" />
+                <ScalarProperty Name="A124_102_NG" ColumnName="A124_102_NG" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="true" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="无" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
